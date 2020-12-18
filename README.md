@@ -78,4 +78,15 @@ You can run functions like 'clear()', 'console.log('Hello World')' on the consol
 Javascript can also be written on a HTML file by using the '\<script\>' tag, write your code of choice inside the tag. However the results of the output from running js this way can be debugged by using the console utility mentioned above.
 
 ###### 2.3 Javascript on a text editor
-Alternatively you can write javascript on a file with the extension '.js', 
+Alternatively you can write javascript on a file with the extension '.js', this is the recommended way to write javascript code. The code from a javascript file can be linked to a HTML file using the '\<script\>' tag as before but this time you reference the file using a path.
+
+The script tag can be used in the head part of the html or in the body, depending on when you want your code to load. Include it in the head if you want it to be rendered on load and include it in the body if you want it to load after everything.
+
+###### 2.3 Javascript commenting style
+use /* */ for multiple lines and // for single lines
+e.g /* many
+    many 
+    many
+    lines */
+
+    // One line
