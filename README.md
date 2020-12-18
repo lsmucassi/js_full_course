@@ -67,3 +67,15 @@ The current JavaScript ecosystem has many libraries and frameworks, established 
 Website client-side usage
 JavaScript is the dominant client-side scripting language of the Web, with 95% of websites using it for this purpose. Scripts are embedded in or included from HTML documents and interact with the DOM. All major web browsers have a built-in JavaScript engine that executes the code on the user's device.
 > source: wikipedia
+
+#### 2. Hello World
+###### 2.1 Javascript on the web console
+Use any web browser to access the web console, you can write javascript code on a console found on developer tools that most browsers ships with. By pressing F12 while a tab is opened, you will have access to developer tools, then look for 'console' on the top tabs of the developer tools. This can be achieved by right clicking on a page(empty or not) then choose 'inspect'
+
+You can run functions like 'clear()', 'console.log('Hello World')' on the console and many other javascript functions or code.
+
+###### 2.1 Javascript on a script tag
+Javascript can also be written on a HTML file by using the '\<script\>' tag, write your code of choice inside the tag.
+
+###### 2.3 Javascript on a text editor
+Alternatively you can write javascript on a file with the extension '.js', 
