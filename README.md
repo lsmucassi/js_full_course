@@ -75,7 +75,7 @@ Use any web browser to access the web console, you can write javascript code on 
 You can run functions like 'clear()', 'console.log('Hello World')' on the console and many other javascript functions or code.
 
 ###### 2.1 Javascript on a script tag
-Javascript can also be written on a HTML file by using the '\<script\>' tag, write your code of choice inside the tag.
+Javascript can also be written on a HTML file by using the '\<script\>' tag, write your code of choice inside the tag. However the results of the output from running js this way can be debugged by using the console utility mentioned above.
 
 ###### 2.3 Javascript on a text editor
 Alternatively you can write javascript on a file with the extension '.js', 
