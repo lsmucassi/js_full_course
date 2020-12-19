@@ -90,3 +90,13 @@ e.g /* many
     lines */
 
     // One line
+
+#### 3. Variables
+
+#### 4. Conditional Statements
+
+#### 5. Loops
+
+#### 6. Operators
+
+#### 7. VariablesHoisting & Stop
