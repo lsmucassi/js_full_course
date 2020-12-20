@@ -127,15 +127,14 @@ var count //to use as a counter
 Conditional statements are used to perform different actions based on different conditions.
 
 Very often when you write code, you want to perform different actions for different decisions.
-
 You can use conditional statements in your code to do this.
 
 In JavaScript we have the following conditional statements:
 
-Use if to specify a block of code to be executed, if a specified condition is true
-Use else to specify a block of code to be executed, if the same condition is false
-Use else if to specify a new condition to test, if the first condition is false
-Use switch to specify many alternative blocks of code to be executed
+- Use if to specify a block of code to be executed, if a specified condition is true
+- Use else to specify a block of code to be executed, if the same condition is false
+- Use else if to specify a new condition to test, if the first condition is false
+- Use switch to specify many alternative blocks of code to be executed
 
 ###### The if Statement
 Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
@@ -157,7 +156,7 @@ if (condition) {
 }
 `
 
-The else if Statement
+###### The else if Statement
 Use the else if statement to specify a new condition if the first condition is false.
 Syntax:
 `
@@ -169,8 +168,49 @@ if (condition1) {
   //  block of code to be executed if the condition1 is false and condition2 is false
 }
 `
+###### The switch statement 
+The switch statement is used to perform different actions based on different conditions.
+Use the switch statement to select one of many code blocks to be executed.
+
+This is how it works:
+
+- The switch expression is evaluated once.
+- The value of the expression is compared with the values of each case.
+- If there is a match, the associated block of code is executed.
+- If there is no match, the default code block is executed.
+
+Syntax
+`switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+`
 
 #### 5. Loops
+Loops can execute a block of code a number of times. Loops are handy, if you want to run the same code over and over again, each time with a different value.
+
+Often this is the case when working with arrays:
+Instead of writing:
+`
+text += cars[0] + "<br>";
+text += cars[1] + "<br>";
+text += cars[2] + "<br>";
+text += cars[3] + "<br>";
+text += cars[4] + "<br>";
+text += cars[5] + "<br>";
+`
+
+You can write:
+var i;
+for (i = 0; i < cars.length; i++) {
+  text += cars[i] + "<br>";
+}
 
 #### 6. Operators
 
