@@ -83,13 +83,17 @@ Alternatively you can write javascript on a file with the extension '.js', this 
 The script tag can be used in the head part of the html or in the body, depending on when you want your code to load. Include it in the head if you want it to be rendered on load and include it in the body if you want it to load after everything.
 
 ###### 2.3 Javascript commenting style
-use /* */ for multiple lines and // for single lines
-e.g /* many
+use /* */ for multiple lines 
+e.g 
+`/* many
     many 
     many
     lines */
-
-    // One line
+`
+and // for single lines
+`
+// One line
+`
 
 #### 3. Variables
 To store data in a memory location we use variables, this also helps us keep track of our data as we initialize, collect, process and output it to understand and work better with our programs
