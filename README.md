@@ -92,6 +92,38 @@ e.g /* many
     // One line
 
 #### 3. Variables
+To store data in a memory location we use variables, this also helps us keep track of our data as we initialize, collect, process and output it to understand and work better with our programs
+
+- In JS variables are declared using var keyword
+syntax:
+`
+var variableNmae = data;
+`
+- Variable names should begin with a letter, $ or a underscore, then any letter or combination may follow but not special characters
+- variable names can not be the same as keywords or reserved word
+- variable names are case sensitive in JS
+e.g:
+valid var name
+`
+var apple_code
+var $apple_code
+var CONSTANT
+`
+
+invalid var name
+`
+var 123apple
+var *apple
+var @apple
+`
+- It is recommended and it is a good practice to name your variable in a descriptive manner
+e.g
+` 
+var temp //to store a temporally value
+var count //to use as a counter
+`
+
+
 
 #### 4. Conditional Statements
 
