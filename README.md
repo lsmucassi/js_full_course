@@ -85,12 +85,15 @@ The script tag can be used in the head part of the html or in the body, dependin
 ###### 2.3 Javascript commenting style
 use /* */ for multiple lines.
 e.g: 
+
 `/* many
     many 
     many
     lines */
 `
+
 and // for single lines.
+
 `
 // One line
 `
