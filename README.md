@@ -425,5 +425,54 @@ while (i < 10);
 `
 
 #### 6. Operators
+In Javascript we have these types of operators:
+- Unary
+- Arithmetic
+- Shift
+- Relational
+- Bitwise
+- Logical 
+- Assignment
+- Ternary
+
+**Assignment**
+The assignment operator (=) assigns a value to a variable.
+
+`
+var x = 10;
+`
+
+**Adding**
+The addition operator (+) adds numbers:
+
+`
+var x = 5;
+var y = 2;
+var z = x + y;
+`
+
+**Multiplying**
+The multiplication operator (*) multiplies numbers.
+
+`
+var x = 5;
+var y = 2;
+var z = x * y;
+`
+
+**JavaScript Arithmetic Operators**
+Arithmetic operators are used to perform arithmetic on numbers:
+
+Operator	Description
++	Addition
+-	Subtraction
+*	Multiplication
+**	Exponentiation (ES2016)
+/	Division
+%	Modulus (Division Remainder)
+++	Increment
+--	Decrement
+
+
 
 #### 7. VariablesHoisting & Stop
