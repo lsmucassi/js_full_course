@@ -103,14 +103,17 @@ To store data in a memory location we use variables, this also helps us keep tra
 
 - In JS variables are declared using var keyword
 syntax:
+
 `
 var variableNmae = data;
 `
+
 - Variable names should begin with a letter, $ or a underscore, then any letter or combination may follow but not special characters
 - variable names can not be the same as keywords or reserved word
 - variable names are case sensitive in JS
 e.g:
 valid var name
+
 `
 var apple_code
 var $apple_code
@@ -118,13 +121,16 @@ var CONSTANT
 `
 
 invalid var name
+
 `
 var 123apple
 var *apple
 var @apple
 `
+
 - It is recommended and it is a good practice to name your variable in a descriptive manner
 e.g
+
 ` 
 var temp //to store a temporally value
 var count //to use as a counter
@@ -146,6 +152,7 @@ In JavaScript we have the following conditional statements:
 ###### The if Statement
 Use the if statement to specify a block of JavaScript code to be executed if a condition is true.
 Syntax:
+
 `
 if (condition) {
   //  block of code to be executed if the condition is true
@@ -155,6 +162,7 @@ if (condition) {
 ###### The else Statement
 Use the else statement to specify a block of code to be executed if the condition is false.
 Syntax:
+
 `
 if (condition) {
   //  block of code to be executed if the condition is true
@@ -166,6 +174,7 @@ if (condition) {
 ###### The else if Statement
 Use the else if statement to specify a new condition if the first condition is false.
 Syntax:
+
 `
 if (condition1) {
   //  block of code to be executed if condition1 is true
@@ -175,6 +184,7 @@ if (condition1) {
   //  block of code to be executed if the condition1 is false and condition2 is false
 }
 `
+
 ###### The switch statement 
 The switch statement is used to perform different actions based on different conditions.
 Use the switch statement to select one of many code blocks to be executed.
@@ -187,6 +197,7 @@ This is how it works:
 - If there is no match, the default code block is executed.
 
 Syntax
+
 `switch(expression) {
   case x:
     // code block
@@ -204,6 +215,7 @@ Loops can execute a block of code a number of times. Loops are handy, if you wan
 
 Often this is the case when working with arrays:
 Instead of writing:
+
 `
 text += cars[0] + "<br>";
 text += cars[1] + "<br>";
@@ -214,6 +226,7 @@ text += cars[5] + "<br>";
 `
 
 You can write:
+
 `
 var i;
 for (i = 0; i < cars.length; i++) {
@@ -232,6 +245,7 @@ JavaScript supports different kinds of loops:
 
 ###### The For Loop
 The for loop has the following syntax:
+
 `
 for (statement 1; statement 2; statement 3) {
   // code block to be executed
@@ -243,11 +257,13 @@ for (statement 1; statement 2; statement 3) {
 - Statement 3 is executed (every time) after the code block has been executed.
 
 Example
+
 `
 for (i = 0; i < 5; i++) {
   text += "The number is " + i + "<br>";
 }
 `
+
 From the example above, you can read:
 
 - Statement 1 sets a variable before the loop starts (var i = 0).
@@ -260,14 +276,17 @@ This is not always the case, JavaScript doesn't care. Statement 1 is optional.
 You can initiate many values in statement 1 (separated by comma):
 
 Example
+
 `
 for (i = 0, len = cars.length, text = ""; i < len; i++) {
   text += cars[i] + "<br>";
 }
 `
+
 And you can omit statement 1 (like when your values are set before the loop starts):
 
 Example
+
 `
 var i = 2;
 var len = cars.length;
@@ -276,6 +295,7 @@ for (; i < len; i++) {
   text += cars[i] + "<br>";
 }
 `
+
 **Statement 2**
 Often statement 2 is used to evaluate the condition of the initial variable.
 This is not always the case, JavaScript doesn't care. Statement 2 is also optional.
@@ -289,6 +309,7 @@ Statement 3 can do anything like negative increment (i--), positive increment (i
 Statement 3 can also be omitted (like when you increment your values inside the loop):
 
 Example
+
 `
 var i = 0;
 var len = cars.length;
@@ -297,10 +318,12 @@ for (; i < len; ) {
   i++;
 }
 `
+
 ###### The For/In Loop
 The JavaScript for/in statement loops through the properties of an object:
 
 Example
+
 `
 var person = {fname:"John", lname:"Doe", age:25};
 
@@ -310,21 +333,25 @@ for (x in person) {
   text += person[x];
 }
 `
+
 ###### The For/Of Loop
 The JavaScript for/of statement loops through the values of an iterable objects.
 
 for/of lets you loop over data structures that are iterable such as Arrays, Strings, Maps, NodeLists, and more.
 The for/of loop has the following syntax:
+
 `
 for (variable of iterable) {
   // code block to be executed
 }
 `
+
 variable - For every iteration the value of the next property is assigned to the variable. Variable can be declared with const, let, or var.
 iterable - An object that has iterable properties.
 
 Looping over an Array
 Example
+
 `
 var cars = ["BMW", "Volvo", "Mini"];
 var x;
@@ -333,8 +360,10 @@ for (x of cars) {
   document.write(x + "<br >");
 }
 `
+
 Looping over a String
 Example
+
 `
 var txt = "JavaScript";
 var x;
@@ -349,37 +378,44 @@ Loops can execute a block of code as long as a specified condition is true.
 The while loop loops through a block of code as long as a specified condition is true.
 
 Syntax
+
 `
 while (condition) {
   // code block to be executed
 }
 `
+
 Example
 In the following example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10:
 
 Example
+
 `
 while (i < 10) {
   text += "The number is " + i;
   i++;
 }
 `
+
 > If you forget to increase the variable used in the condition, the loop will never end. This will crash your browser.
 
 ###### The Do/While Loop
 The do/while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
 
 Syntax:
+
 `
 do {
   // code block to be executed
 }
 while (condition);
 `
+
 Example
 The example below uses a do/while loop. The loop will always be executed at least once, even if the condition is false, because the code block is executed before the condition is tested:
 
 Example
+
 `
 do {
   text += "The number is " + i;
