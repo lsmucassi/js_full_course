@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>js full course -lmucassi</title>
     <script>
-        // Javascript on a tag
-        console.log('Hello world!')
+        // Javascript on a tag - head
+        console.log('From html script tag: [head] - Hello world!');
     </script>
 </head>
 <body>
+    <h1>Welcome, Let's have fun with Javascript!</h1>
     
-    <script src="2.1-helloworld.js"></script>
+    <script src="2.1-helloworld.js">
+        // this line of javascript will not be ran because we have provided the source 
+        console.log('From html script tag: [body] - Hello world!');
+    </script>
+
+    <script>
+        // Javascript on a tag - body
+        console.log('From html script tag: [body] - Hello world!');
+    </script>
 </body>
 </html>
