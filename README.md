@@ -99,13 +99,36 @@ and // for single lines.
 `
 
 #### 3. Variables
+Before 2015, using the var keyword was the only way to declare a JavaScript variable.
+
+The 2015 version of JavaScript (ES6 - ECMAScript 2015) allows the use of the const keyword to define a variable that cannot be reassigned, and the let keyword to define a variable with restricted scope.
+
+Because it is a little complicated to describe the difference between these keywords, and because they are not supported in older browsers, the first part of this tutorial will most often use var.
+
 To store data in a memory location we use variables, this also helps us keep track of our data as we initialize, collect, process and output it to understand and work better with our programs
 
-- In JS variables are declared using var keyword
+**JavaScript Data Types**
+JavaScript variables can hold numbers like 100 and text values like "John Doe".
+In programming, text values are called text strings.
+Strings are written inside double or single quotes. Numbers are written without quotes.
+
+If you put a number in quotes, it will be treated as a text string.
+
+Example:
+
+`
+var pi = 3.14;
+var person = "John Doe";
+var answer = 'Yes I am!';
+`
+
+- In JS variables are declared using var, let and const keyword
 syntax:
 
 `
-var variableNmae = data;
+var variableName = data;
+let variableName = data;
+const VAT = 14.5;
 `
 
 - Variable names should begin with a letter, $ or a underscore, then any letter or combination may follow but not special characters
