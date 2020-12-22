@@ -475,4 +475,4 @@ Operator	Description
 
 
 
-#### 7. VariablesHoisting & Stop
+#### 7. Variables Hoisting & Stop
