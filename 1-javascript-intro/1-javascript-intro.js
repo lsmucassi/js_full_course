@@ -1,3 +1,4 @@
+//let's output the history of javascript
 console.log(` 1. What is Javascript
  1.1 JavaScript
 Often abbreviated as JS, is a programming language that conforms to the **ECMAScript** specification. JavaScript is high-level, often just-in-time compiled(Javascript uses the JIT compiler), and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
@@ -64,4 +65,9 @@ The current JavaScript ecosystem has many libraries and frameworks, established 
 
 Website client-side usage
 JavaScript is the dominant client-side scripting language of the Web, with 95% of websites using it for this purpose. Scripts are embedded in or included from HTML documents and interact with the DOM. All major web browsers have a built-in JavaScript engine that executes the code on the user's device.
-> source: wikipedia`)
+> source: wikipedia`);
+
+// just for fun let's console console 🤪
+console.log(console);
+// the above will show all the functions you can use with console
+// log() will be the one we use to log output to the console
