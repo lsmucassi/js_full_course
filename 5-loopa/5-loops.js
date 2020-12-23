@@ -57,7 +57,7 @@ console.log('\n');
 
 console.log('THE DO WHILE LOOP');
 do {
-    console.log("The number is " + i);
+    console.log("The number is now" + i);
     i++;
 } while (i <= 15);
 
