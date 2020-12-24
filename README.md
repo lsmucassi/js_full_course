@@ -465,26 +465,8 @@ The assignment operator (=) assigns a value to a variable.
 var x = 10;
 `
 
-**Adding**
-The addition operator (+) adds numbers:
-
-`
-var x = 5;
-var y = 2;
-var z = x + y;
-`
-
-**Multiplying**
-The multiplication operator (*) multiplies numbers.
-
-`
-var x = 5;
-var y = 2;
-var z = x * y;
-`
-
-**JavaScript Arithmetic Operators**
-Arithmetic operators are used to perform arithmetic on numbers:
+###### JavaScript Arithmetic Operators**
+Arithmetic operators are used to perform arithmetic operations on numbers:
 
 Operator	Description
 +	Addition
@@ -496,6 +478,100 @@ Operator	Description
 ++	Increment
 --	Decrement
 
+**Addition**
+The addition operator (+) adds numbers:
+
+`
+var x = 5;
+var y = 2;
+var z = x + y;
+`
+
+**Subtraction**
+The Subtraction operator (-) subtracts numbers:
+
+`
+var x = 5;
+var y = 2;
+var z = x - y;
+`
+
+**Multiplication**
+The multiplication operator (*) multiplies numbers.
+
+`
+var x = 5;
+var y = 2;
+var z = x * y;
+`
+
+**Exponentiation**
+The Exponentiation operator (**) allows for Exponentiation of numbers.
+
+`
+var x = 5;
+var y = 2;
+var z = x ** y;
+`
+
+**Division**
+The Division operator (/) divides numbers.
+
+`
+var x = 5;
+var y = 2;
+var z = x / y;
+`
+
+**Modulus Division**
+The Modulus Division operator (%) return the remainder between number's division.
+
+`
+var x = 5;
+var y = 2;
+var z = x / y;
+`
+
+**Unary Operators**
+- **Increment**
+The Increment operator (++) increments a numbers with a value of 1.
+
+we have two types of increments
+- - Prefix Increment
+
+`
+// adds a value before the variable is executed
+var x = 5;
+++x;
+`
+
+- - Postfix Increment
+
+`
+// adds a value after the variable is executed
+var x = 5;
+x++;
+`
+
+- **Decrement**
+The Decrement operator (++) increments a numbers with a value of 1.
+
+we have two types of increments
+- - Prefix Increment
+
+`
+// Subtracts a value of 1 before the variable is executed
+var x = 5;
+--x;
+`
+
+- - Postfix decrement
+
+`
+// subtracts a value 0f 1 after the variable is executed
+var x = 5;
+x--;
+`
 
 
 #### 7. Variables Hoisting & Stop
