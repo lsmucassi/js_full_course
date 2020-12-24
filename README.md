@@ -573,7 +573,7 @@ x--;
 `
 
 ##### JavaScript Relational/Logical Operators
-###### Comparison 
+###### Comparison Operators
 Comparison operators are used in logical statements to determine equality or difference between variables or values.
 
 **Equal to : ==**	
@@ -637,7 +637,44 @@ x = 5
 x <= 8	true
 `
 
+###### Logical Operators
+Logical operators are used to determine the logic between variables or values.
 
+**And	: &&**
+
+`
+x = 5
+y = 2
+(x < 10 && y > 1) // true
+`
+
+**Or : ||**
+
+`
+(x == 4 || y == 5) // false
+`
+
+**Not	: !**
+
+`
+!(x == y) // true
+`
+
+###### Conditional (Ternary) Operator
+JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+
+Syntax:
+
+`
+variablename = (condition) ? value1:value2 
+`
+
+Example:
+
+`
+var voteable = (age < 18) ? "Too young":"Old enough";
+`
+> The above ternary statement is also similar to an if statement, but can only be used instead of an 'if' statement if the body of the 'if' statement has one line after the condition only in one line and one line only
 
 ###### JavaScript Bitwise Operators
 JavaScript stores numbers as 64 bits floating point numbers, but all bitwise operations are performed on 32 bits binary numbers.
