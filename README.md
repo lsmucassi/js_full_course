@@ -579,10 +579,65 @@ Comparison operators are used in logical statements to determine equality or dif
 **Equal to : ==**	
 
 `
+x = 5
 x == 8 //	false	
 x == 5	//true	
 x == "5" //	true
 `
+
+**Equal value and equal type : ===**
+
+`
+x = 5
+x === 5	// true	
+x === "5"	// false
+`
+
+**Not equal to : !=**	
+
+`
+x = 5
+x != 8	// true
+`
+
+**Not equal value or not equal type : !==**
+
+`
+x = 5
+x !== 5	// false	
+x !== "5"	// true	
+x !== 8	// true
+,
+
+**Greater than	: >** 
+
+`
+x = 5
+x > 8	// false
+`
+
+**Less than : <**
+
+`
+x = 5
+x < 8	// true
+`
+
+**Greater than or equal to : >=**	
+
+`
+x = 5
+x >= 8	false
+`
+
+**Less than or equal : <=**
+
+`
+x = 5
+x <= 8	true
+`
+
+
 
 ###### JavaScript Bitwise Operators
 JavaScript stores numbers as 64 bits floating point numbers, but all bitwise operations are performed on 32 bits binary numbers.
