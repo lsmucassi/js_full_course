@@ -449,15 +449,16 @@ while (i < 10);
 
 #### 6. Operators
 In Javascript we have these types of operators:
+- Assignment
 - Unary
 - Arithmetic
 - Relational
-- Bitwise
 - Logical 
-- Assignment
+- Bitwise
 - Ternary
 
-**Assignment**
+
+###### Assignment**
 The assignment operator (=) assigns a value to a variable.
 
 `
