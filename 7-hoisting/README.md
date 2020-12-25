@@ -47,3 +47,5 @@ num = 6; // Initialization
 `
 
 You can not access a variable before it's initialized or declared but you can use a variable that was initialized without declaration and declare it later
+
+When you use 'let' or 'const' hoisting will not apply, your code will give an error
