@@ -21,3 +21,41 @@
 
 ### 7. Variables Hoisting & Stop
 > [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+
+### 8. Data Types
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 9. Objects
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+
+### 10. Arrays
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 11. Functions
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 12. OOPS
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 13. Exception Handling
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 14. DOM
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 15. Closure And Promises
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 16. Advanced Arrays
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 17. Advanced Function
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 18. Ping Pong Game
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+
+### 19. Colour Picker
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
