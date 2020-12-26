@@ -40,22 +40,24 @@
 > [Read More ->](https://github.com/lsmucassi/js_full_course/tree/main/12-oops)
 
 ### 13. Exception Handling
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/)
 
 ### 14. DOM
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/tree/main/14-dom)
 
 ### 15. Closure And Promises
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/tree/main/15-closure-promises)
 
 ### 16. Advanced Arrays
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/tree/main/16-advanced-arrays)
 
 ### 17. Advanced Function
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/tree/main/17-advanced-functions)
 
 ### 18. Ping Pong Game
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/tree/main/18-ping-pong-game)
 
 ### 19. Colour Picker
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/tree/main/19-color-picker)
+
+### Conclusion
