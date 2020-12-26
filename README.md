@@ -34,7 +34,7 @@
 > [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/10-arrays/README.md)
 
 ### 11. Functions
-> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
+> [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/11-functions/)
 
 ### 12. OOPS
 > [Read More ->](https://github.com/lsmucassi/js_full_course/blob/main/7-hoisting/README.md)
