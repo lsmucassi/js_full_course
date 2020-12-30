@@ -2,8 +2,7 @@
 > My journey in learning javascript and it's amazing features, I realized that documenting information/knowledge helps stick it up the brain's memory and helps in polishing the language you are using to document, and helps improve communication skills as this requires writing skills that allows others to read and understand the context. Enjoy my version of the basics of Javascript Programming Language
 
 ### 10. Arrays
-An array is a data type that allows you to store many items in a variable, but unlike an object, arrays can only store many items of only the same type, if you store items with values of strings in an array then all the items should be strings, and that applies to numbers and other data types.
-
+An array is a data type that allows you to store many items in a variable, in javascript an arrays can store items of different data types.
 Arrays stores items in a row with no keys, just the values.
 Example:
 
@@ -115,3 +114,39 @@ dateArray[0] = Date.now(); // Date.now() is an object
 MyArray[1] = myFunction;
 MyArray[4] = MyClass;
 `
+
+**Adding items**
+There are many functions used with arrays to allow us to do things to arrays, push() is one function we can use to add items to an array
+
+Example:
+
+`
+var students = ["Linda", "Sibusiso", "Nelisiwe" , "Themba"];
+students.push("Sanele"); // adds the item Sanele as the last element of the array
+`
+
+> note that with push elements are added at the end of the array and the size of the array changes
+
+You can add as many items as you like 
+
+Example:
+
+`
+students.push(item1, item2, ..., nthItem);
+`
+
+To add an item at the start of an array we can use a function called unshift()
+
+Example:
+
+`
+students.unshift(item1, item2, ..., nthItem);
+`
+
+There are many other functions that javascript has prepared for us to use from the go such as:
+
+sort() - To sort an array in ascending order by default
+splice - To add or remove element ata specific position in an array
+toString - Converts an array to a string
+
+Just to mention a few.
